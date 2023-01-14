@@ -131,10 +131,10 @@ nav{
 .love-feature-title h2{
     margin-left: 20px;
 }
-.blogs{
+.feature-cards{
     padding: 30px;
 }
-.blog{
+.feature-card{
     border-radius: 8px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     padding: 20px;
@@ -180,6 +180,25 @@ nav{
 .box-item-contain{
     margin-top: 40px;
    
+}
+/* architecture-blog section style */
+.architecture-blog-section{
+    max-width: 75%;
+    margin: 100px auto;
+}
+
+.blog-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.architecture-blogs{
+    display: flex;
+    column-gap: 120px;
+}
+.architecture-blog img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
 }
 /* our-sponsors style */
 .our-sponsors{
