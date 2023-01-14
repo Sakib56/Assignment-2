@@ -164,7 +164,7 @@ nav{
 .box-item{
     width: 200px;
     height: 180px;
-    border: 1px solid #FF900E;
+    border: 2px solid #FF900E;
     border-radius: 8px;
     text-align: center;
     color: #424242;
@@ -175,9 +175,32 @@ nav{
 .box-item:hover{
     transform: rotate(360deg);
     background-color: rgba(255, 144, 14, 0.1);
-    border: 2px solid orange;
+    border: 2px solid rgb(31, 28, 28);
 }
 .box-item-contain{
     margin-top: 40px;
    
+}
+/* our-sponsors style */
+.our-sponsors{
+    text-align: center;
+    margin: 100px auto;
+}
+.sponsors-logo{
+    display: flex;
+    justify-content: space-evenly;
+    filter: grayscale(10);
+    margin-top: 75px;
+}
+.sponsors-logo img{
+    width: 75%;
+}
+/* footer style */
+footer{
+    background-color: #FFF4E7;
+    width: 75%;
+    margin: 0px auto 100px;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 8px;
 }
