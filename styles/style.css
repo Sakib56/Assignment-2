@@ -286,7 +286,8 @@ footer{
         width: 100%;
     }
     .love-and-enjoy-feature-img-part button{
-      right: 0;
+      left: 110px;
+      top: 0px;
     }
     /* some facts part */
     .some-facts-box-items{
@@ -299,6 +300,120 @@ footer{
     /* blog section */
     .architecture-blogs{
         flex-direction: column;
+    }
+    /* sponsor section */
+    .sponsors-logo{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .sponsors-logo img{
+        width: 40%;
+        margin-top: 20px;
+    }
+    /* footer */
+    footer{
+        background-color: #FFF4E7;
+        width: 90%;
+        margin: 0px auto 50px;
+        padding: 10px 0;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 990px){
+    /* common style */
+    .section-title{
+        font-size: 30px;
+    }
+    /* header navigation */
+    nav{
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+    .nav-menu ul{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .nav-menu li
+    {
+        margin: 0px;
+    }
+    /* banner part */
+    .banner-text-part{
+       margin-top: 40px;
+    }
+    .banner-text-title{
+    font-size: 35px;
+    }
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+    }
+    /* quick list feature */
+    .quick-list-feature{
+       padding: 0;
+       
+    }
+    .quick-list-feature-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .quick-list-feature-imges{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        margin-top: 50px;
+    }
+    .quick-list-feature-text-part{
+        margin: 0;
+        padding: 0 20px;
+    }
+    /* love and enjoy feature part */
+    .love-and-enjoy-feature{
+        padding: 0;
+    }
+    .love-and-enjoy-feature-container{
+        flex-direction: column;
+    }
+    .love-and-enjoy-feature-text-part .section-description{
+        padding: 0px 30px;
+    }
+    .love-and-enjoy-feature-img-part img{
+        width: 100%;
+    }
+    .love-and-enjoy-feature-img-part button{
+      left: 110px;
+      top: 0px;
+    }
+    /* some facts part */
+    .some-facts-box-items{
+        margin-top: 50px;
+        column-gap: 10px;
+        margin-top: 100px;
+    }
+    .box-item{
+        margin-top: 20px;
+    }
+     .some-facts{
+            max-width: 90%;
+            margin: 50px auto;
+    }
+    /* blog section */
+    .architecture-blog-section{
+        max-width: 100%;
+        margin: 100px auto;
+    }
+    
+    .blog-title{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .architecture-blogs{
+        flex-direction: column;
+        column-gap: 120px;
+        margin: 50px 200px;
+    }
+    .architecture-blog img{
+        width: 400px;
+        height: 250px;
+        border-radius: 10px;
     }
     /* sponsor section */
     .sponsors-logo{
